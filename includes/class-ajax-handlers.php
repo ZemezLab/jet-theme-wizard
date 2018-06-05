@@ -165,6 +165,11 @@ if ( ! class_exists( 'Jet_Theme_Wizard_Ajax_Handlers' ) ) {
 				) );
 			}
 
+			update_option( jet_theme_wizard()->settings['options']['child_data'], array(
+				'TextDomain' => 'kava-child',
+				'ThemeName'  => 'Kava Child',
+			) );
+
 			/**
 			 * Fires when child theme installed before sending result.
 			 */

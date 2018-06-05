@@ -222,5 +222,5 @@ if ( ! class_exists( 'Jet_Theme_Wizard_License' ) ) {
  * @return object
  */
 function jet_theme_wizard_license() {
-	return Jet_Theme_Wizard_License::get_instance( $template_id, $order_id );
+	return Jet_Theme_Wizard_License::get_instance();
 }
