@@ -3,11 +3,11 @@
 .jet-theme-wizard {
 	background: $bodyColor;
 	color: $textColor;
-	padding: 40px 50px;
+	padding: 30px;
 	border: 1px solid $bordersColor;
 	font-size: $fontSize;
 	line-height: 19px;
-	max-width: 1100px;
+	max-width: 1220px;
 
 	.notice,
 	.updated {
@@ -15,9 +15,9 @@
 	}
 
 	h2 {
-		margin: 0 0 30px;
+		margin: 0 0 15px;
 		padding: 0 0 15px;
-		font-size: 30px;
+		font-size: 24px;
 		line-height: 1em;
 		color: $textColorAlt;
 		border-bottom: 1px solid $bordersColor;
@@ -38,12 +38,12 @@
 	}
 
 	.desc {
-		padding: 0 0 30px;
+		padding: 0 0 15px;
 	}
 
 	.theme-wizard-form {
 		&__row {
-			padding: 0 0 30px;
+			padding: 0 0 20px;
 			position: relative;
 			label {
 				display: block;
@@ -63,8 +63,8 @@
 		color: $textColorAlt;
 		background-color: $innerBoxColor;
 		border-radius: 2px;
-		padding: 10px 20px;
-		min-height: 50px;
+		padding: 5px;
+		min-height: 28px;
 		border: 1px solid $bordersColor;
 		box-shadow: none;
 		&.wizard-error {
@@ -75,63 +75,74 @@
 	.wizard-error-message {
 		color: $dangerColor;
 		position: absolute;
+		position: absolute;
+		font-size: 11px;
+		margin: -3px 0 0 -2px;
 	}
 
 	.btn {
-		display: inline-block;
-		padding: 15px 30px;
-		font-size: 12px;
-		line-height: 20px;
-		text-transform: uppercase;
-		font-weight: bold;
-		border: none;
-		outline: none;
-		background: $defaultColor;
-		color: #fff;
-		cursor: pointer;
-		vertical-align: top;
-		border-radius: 5px;
-		transition: all 200ms linear;
-		text-decoration: none;
-		box-shadow: 0 5px 15px rgba( 0,0,0,.18 );
 		position: relative;
-		&:focus,
-		&:active {
-			box-shadow: none;
-			color: #fff;
+		display: inline-block;
+		font-size: 11px;
+		line-height: 18px;
+		text-decoration: none;
+		padding: 4px 22px;
+		color: $textColorAlt;
+		text-transform: uppercase;
+		border-radius: 4px;
+		border-width: 1px;
+		border-style: solid;
+		outline: none;
+		cursor: pointer;
+		transition: all 200ms linear;
+		border-color: $normal_outset_1 $normal_outset_2 $normal_outset_2 $normal_outset_1;
+		background-color: $normal_gradint_2;
+		&:before {
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			border-radius: 4px;
+			background-image: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+			content: '';
 		}
+
 		&:hover {
-			background: $defaultColorAlt;
-			color: #fff;
-			box-shadow: 0 1px 3px rgba( 0,0,0,.18 );
+			&:before {
+				background-image: linear-gradient(0deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+			}
+		}
+
+		&:active {
+			&:before {
+				opacity: 0;
+			}
 		}
 		&.btn-primary {
-			background: $primaryColor;
+			border-color: $primary_outset_1 $primary_outset_2 $primary_outset_2 $primary_outset_1;
+			background-color: $primary_gradint_2;
+			color: #fff;
 			&.disabled {
 				background: lighten( $primaryColor, 10% );
 				cursor: default;
 			}
-			&:hover {
-				background: $primaryColorAlt;
-			}
 		}
 		&.btn-success {
-			background: $successColor;
-			&:hover {
-				background: $successColorAlt;
-			}
+			color: #fff;
+			border-color: $success_outset_1 $success_outset_2 $success_outset_2 $success_outset_1;
+			background-color: $success_gradint_2;
 		}
 		&.btn-danger {
-			background: $dangerColor;
-			&:hover {
-				background: $dangerColorAlt;
-			}
+			color: #fff;
+			border-color: $danger_outset_1 $danger_outset_2 $danger_outset_2 $danger_outset_1;
+			background-color: $danger_gradint_2;
 		}
 		&.btn-warning {
-			background: $warningColor;
-			&:hover {
-				background: $warningColorAlt;
-			}
+			color: #fff;
+			border-color: $warning_outset_1 $warning_outset_2 $warning_outset_2 $warning_outset_1;
+			background-color: $warning_gradint_2;
 		}
 		.dashicons,
 		.dashicons-before::before {
@@ -149,7 +160,7 @@
 	}
 
 	.wizard-log {
-		padding: 30px 0 0 0;
+		padding: 20px 0 0 0;
 	}
 
 	.theme-wizard-radio {
@@ -263,17 +274,17 @@
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		width: 20px;
-		height: 20px;
-		margin: -13px 0 0 -13px;
+		width: 14px;
+		height: 14px;
+		margin: -9px 0 0 -10px;
 	}
 	&__spinner {
 		display: block;
 		width: 100%;
 		height: 100%;
 		animation: spin .7s linear infinite;
-		border: 3px solid #FFF;
-		border-top: 3px solid #3498DB;
+		border: 2px solid #FFF;
+		border-top: 2px solid #3498DB;
 		border-radius: 50%;
 		transition: opacity 300ms linear;
 		opacity: 0;
