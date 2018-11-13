@@ -161,7 +161,7 @@ if ( ! class_exists( 'Jet_Theme_Wizard_Install_API' ) ) {
 			} elseif ( is_null( $result ) ) {
 
 				global $wp_filesystem;
-				$message = __( 'Unable to connect to the filesystem. Please confirm your credentials.' );
+				$message = __( 'Unable to connect to the filesystem. Please confirm your credentials.', 'jet-theme-wizard' );
 
 				// Pass through the error from WP_Filesystem if one was raised.
 				if ( $wp_filesystem instanceof WP_Filesystem_Base && is_wp_error( $wp_filesystem->errors ) && $wp_filesystem->errors->get_error_code() ) {
@@ -269,7 +269,7 @@ if ( ! class_exists( 'Jet_Theme_Wizard_Install_API' ) ) {
 				} else {
 					return new WP_Error(
 						'rename_failed',
-						esc_html__( 'The remote plugin package does not contain a folder with the desired slug and renaming did not work.', 'tm-wizard' ) . ' ' . esc_html__( 'Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines.', 'tm-wizard' ),
+						esc_html__( 'The remote plugin package does not contain a folder with the desired slug and renaming did not work.', 'jet-theme-wizard' ) . ' ' . esc_html__( 'Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines.', 'jet-theme-wizard' ),
 						array( 'found' => $subdir_name, 'expected' => $desired_slug )
 					);
 				}
@@ -277,7 +277,7 @@ if ( ! class_exists( 'Jet_Theme_Wizard_Install_API' ) ) {
 			} elseif ( empty( $subdir_name ) ) {
 				return new WP_Error(
 					'packaged_wrong',
-					esc_html__( 'The remote plugin package consists of more than one file, but the files are not packaged in a folder.', 'tm-wizard' ) . ' ' . esc_html__( 'Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines.', 'tm-wizard' ),
+					esc_html__( 'The remote plugin package consists of more than one file, but the files are not packaged in a folder.', 'jet-theme-wizard' ) . ' ' . esc_html__( 'Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines.', 'jet-theme-wizard' ),
 					array( 'found' => $subdir_name, 'expected' => $desired_slug )
 				);
 			}

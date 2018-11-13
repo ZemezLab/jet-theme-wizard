@@ -113,11 +113,11 @@ if ( ! class_exists( 'Jet_Theme_Wizard_License' ) ) {
 		public function activate_license( $license = null ) {
 
 			if ( ! current_user_can( 'manage_options' ) ) {
-				return $this->set_error( __( 'Sorry, you not allowed to activate license', 'jet-plugins-wizard' ) );
+				return $this->set_error( __( 'Sorry, you not allowed to activate license', 'jet-theme-wizard' ) );
 			}
 
 			if ( ! $license ) {
-				return $this->set_error( __( 'Please provide valid license key', 'jet-plugins-wizard' ) );
+				return $this->set_error( __( 'Please provide valid license key', 'jet-theme-wizard' ) );
 			}
 
 			$response = $this->license_request( 'activate_license', $license );
@@ -126,7 +126,7 @@ if ( ! class_exists( 'Jet_Theme_Wizard_License' ) ) {
 			$result   = json_decode( $result, true );
 
 			if ( ! isset( $result['success'] ) ) {
-				return $this->set_error( __( 'Internal error, please try again later.', 'jet-plugins-wizard' ) );
+				return $this->set_error( __( 'Internal error, please try again later.', 'jet-theme-wizard' ) );
 			}
 
 			if ( true === $result['success'] ) {
@@ -182,17 +182,17 @@ if ( ! class_exists( 'Jet_Theme_Wizard_License' ) ) {
 		public function get_error_by_code( $code ) {
 
 			$messages = array(
-				'missing' => __( 'Your license is missing. Please check your key again.', 'jet-theme-core' ),
-				'no_activations_left' => __( '<strong>You have no more activations left.</strong> Please upgrade to a more advanced license (you\'ll only need to cover the difference).', 'jet-theme-core' ),
-				'expired' => __( '<strong>Your License Has Expired.</strong> Renew your license today to keep getting feature updates, premium support and unlimited access to the template library.', 'jet-theme-core' ),
-				'revoked' => __( '<strong>Your license key has been cancelled</strong> (most likely due to a refund request). Please consider acquiring a new license.', 'jet-theme-core' ),
-				'disabled' => __( '<strong>Your license key has been cancelled</strong> (most likely due to a refund request). Please consider acquiring a new license.', 'jet-theme-core' ),
-				'invalid' => __( '<strong>Your license key doesn\'t match your current domain</strong>. This is most likely due to a change in the domain URL of your site (including HTTPS/SSL migration). Please deactivate the license and then reactivate it again.', 'jet-theme-core' ),
-				'site_inactive' => __( '<strong>Your license key doesn\'t match your current domain</strong>. This is most likely due to a change in the domain URL. Please deactivate the license and then reactivate it again.', 'jet-theme-core' ),
-				'inactive' => __( '<strong>Your license key doesn\'t match your current domain</strong>. This is most likely due to a change in the domain URL of your site (including HTTPS/SSL migration). Please deactivate the license and then reactivate it again.', 'jet-theme-core' ),
+				'missing' => __( 'Your license is missing. Please check your key again.', 'jet-theme-wizard' ),
+				'no_activations_left' => __( '<strong>You have no more activations left.</strong> Please upgrade to a more advanced license (you\'ll only need to cover the difference).', 'jet-theme-wizard' ),
+				'expired' => __( '<strong>Your License Has Expired.</strong> Renew your license today to keep getting feature updates, premium support and unlimited access to the template library.', 'jet-theme-wizard' ),
+				'revoked' => __( '<strong>Your license key has been cancelled</strong> (most likely due to a refund request). Please consider acquiring a new license.', 'jet-theme-wizard' ),
+				'disabled' => __( '<strong>Your license key has been cancelled</strong> (most likely due to a refund request). Please consider acquiring a new license.', 'jet-theme-wizard' ),
+				'invalid' => __( '<strong>Your license key doesn\'t match your current domain</strong>. This is most likely due to a change in the domain URL of your site (including HTTPS/SSL migration). Please deactivate the license and then reactivate it again.', 'jet-theme-wizard' ),
+				'site_inactive' => __( '<strong>Your license key doesn\'t match your current domain</strong>. This is most likely due to a change in the domain URL. Please deactivate the license and then reactivate it again.', 'jet-theme-wizard' ),
+				'inactive' => __( '<strong>Your license key doesn\'t match your current domain</strong>. This is most likely due to a change in the domain URL of your site (including HTTPS/SSL migration). Please deactivate the license and then reactivate it again.', 'jet-theme-wizard' ),
 			);
 
-			$default = __( 'An error occurred. Please check your internet connection and try again. If the problem persists, contact our support.', 'jet-theme-core' );
+			$default = __( 'An error occurred. Please check your internet connection and try again. If the problem persists, contact our support.', 'jet-theme-wizard' );
 
 			return isset( $messages[ $code ] ) ? $messages[ $code ] : $default;
 

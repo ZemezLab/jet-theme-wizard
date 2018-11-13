@@ -1,0 +1,251 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jet Theme Wizard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 08:37+0200\n"
+"PO-Revision-Date: 2017-04-12 09:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: su\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:4c,1,2;_n_noop:1,2;"
+"_nx_noop:4c,1,2\n"
+"esc_attr__;_x: 1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: cherry-framework\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: includes/class-ajax-handlers.php:79
+msgid "Installation data lost, please return to previous step and try again."
+msgstr ""
+
+#: includes/class-ajax-handlers.php:88
+msgid "Request failed. Please, try again later."
+msgstr ""
+
+#: includes/class-ajax-handlers.php:99
+msgid "Child theme generated. Installing..."
+msgstr ""
+
+#: includes/class-ajax-handlers.php:120
+msgid "Child theme installation skipped. Continue with parent theme..."
+msgstr ""
+
+#: includes/class-ajax-handlers.php:217
+msgid "Theme URL was lost. Please refresh page and try again."
+msgstr ""
+
+#: includes/class-ajax-handlers.php:295
+msgid "Can't find theme to activate"
+msgstr ""
+
+#: includes/class-ajax-handlers.php:303
+msgid "The theme is already active. Redirecting..."
+msgstr ""
+
+#: includes/class-ajax-handlers.php:305
+msgid "The theme is sucessfully activated. Redirecting..."
+msgstr ""
+
+#: includes/class-ajax-handlers.php:336
+msgid "Please fill in License field and try again"
+msgstr ""
+
+#: includes/class-ajax-handlers.php:354
+msgid "Your license activated. Downloading and installing theme..."
+msgstr ""
+
+#: includes/class-ajax-handlers.php:372
+msgid "You are not allowed to access this"
+msgstr ""
+
+#: includes/class-ajax-handlers.php:380
+msgid "Nonce verfictaion failed"
+msgstr ""
+
+#: includes/class-compat.php:54
+msgid "Jet Plugins Wizard"
+msgstr ""
+
+#: includes/class-compat.php:92
+msgid "Installing plugins wizard..."
+msgstr ""
+
+#: includes/class-compat.php:113
+msgid "Plugins wizard data not found."
+msgstr ""
+
+#: includes/class-compat.php:145
+msgid "All done, redirecting..."
+msgstr ""
+
+#: includes/class-install-api.php:74
+msgid "The theme is succesfully installed. Activating..."
+msgstr ""
+
+#: includes/class-install-api.php:87
+msgid "The theme has been already installed. Activating..."
+msgstr ""
+
+#: includes/class-install-api.php:98 includes/class-install-api.php:164
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: includes/class-install-api.php:142
+msgid "Plugins wizard installed and activated. Redirecting..."
+msgstr ""
+
+#: includes/class-install-api.php:272 includes/class-install-api.php:354
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/class-install-api.php:272 includes/class-install-api.php:280
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-install-api.php:280
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/class-interface.php:37 includes/class-interface.php:38
+msgid "Jet Theme Wizard"
+msgstr ""
+
+#: includes/class-license.php:116
+msgid "Sorry, you not allowed to activate license"
+msgstr ""
+
+#: includes/class-license.php:120
+msgid "Please provide valid license key"
+msgstr ""
+
+#: includes/class-license.php:129
+msgid "Internal error, please try again later."
+msgstr ""
+
+#: includes/class-license.php:185
+msgid "Your license is missing. Please check your key again."
+msgstr ""
+
+#: includes/class-license.php:186
+msgid ""
+"<strong>You have no more activations left.</strong> Please upgrade to a more "
+"advanced license (you'll only need to cover the difference)."
+msgstr ""
+
+#: includes/class-license.php:187
+msgid ""
+"<strong>Your License Has Expired.</strong> Renew your license today to keep "
+"getting feature updates, premium support and unlimited access to the "
+"template library."
+msgstr ""
+
+#: includes/class-license.php:188 includes/class-license.php:189
+msgid ""
+"<strong>Your license key has been cancelled</strong> (most likely due to a "
+"refund request). Please consider acquiring a new license."
+msgstr ""
+
+#: includes/class-license.php:190 includes/class-license.php:192
+msgid ""
+"<strong>Your license key doesn't match your current domain</strong>. This is "
+"most likely due to a change in the domain URL of your site (including HTTPS/"
+"SSL migration). Please deactivate the license and then reactivate it again."
+msgstr ""
+
+#: includes/class-license.php:191
+msgid ""
+"<strong>Your license key doesn't match your current domain</strong>. This is "
+"most likely due to a change in the domain URL. Please deactivate the license "
+"and then reactivate it again."
+msgstr ""
+
+#: includes/class-license.php:195
+msgid ""
+"An error occurred. Please check your internet connection and try again. If "
+"the problem persists, contact our support."
+msgstr ""
+
+#: jet-theme-wizard.php:300
+msgid "* Please, fill this field"
+msgstr ""
+
+#: templates/step-child-theme.php:8
+msgid ""
+"We can't find any inforamtion about installed theme. Plaese, return to "
+"previous"
+msgstr ""
+
+#: templates/step-child-theme.php:13
+msgid "Use child theme?"
+msgstr ""
+
+#: templates/step-child-theme.php:15
+#, php-format
+msgid ""
+"We recommend you to use our child themes generator to get child theme for %s"
+msgstr ""
+
+#: templates/step-child-theme.php:20
+msgid "Continue with parent theme"
+msgstr ""
+
+#: templates/step-child-theme.php:21
+msgid "Skip child theme installation and continute with parent theme."
+msgstr ""
+
+#: templates/step-child-theme.php:27
+msgid "Use child theme"
+msgstr ""
+
+#: templates/step-child-theme.php:28
+msgid ""
+"Download and install child theme. Note: we recommend doing this, because it "
+"is the most safe way to make future modifictaions."
+msgstr ""
+
+#: templates/step-child-theme.php:36
+msgid "Continue"
+msgstr ""
+
+#: templates/step-success.php:1
+msgid "The theme is successfully installed"
+msgstr ""
+
+#: templates/step-success.php:3
+msgid "Congratulations, your theme is successfully installed!"
+msgstr ""
+
+#: templates/step-verification.php:6
+msgid "Install Theme"
+msgstr ""
+
+#: templates/step-verification.php:8
+msgid "Please, enter your license key to start installation:"
+msgstr ""
+
+#: templates/step-verification.php:13
+msgid "License Key:"
+msgstr ""
+
+#: templates/step-verification.php:15
+msgid "Enter your license key here..."
+msgstr ""
+
+#: templates/step-verification.php:19
+msgid "Start Install"
+msgstr ""

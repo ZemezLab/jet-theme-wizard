@@ -117,7 +117,7 @@ if ( ! class_exists( 'Jet_Theme_Wizard_Ajax_Handlers' ) ) {
 			do_action( 'jet-theme-wizard/skip-child-installation' );
 
 			wp_send_json_success( array(
-				'message'  => esc_html__( 'Child theme installation skipped. Continue with parent theme...' ),
+				'message'  => esc_html__( 'Child theme installation skipped. Continue with parent theme...', 'jet-theme-wizard' ),
 				'redirect' => jet_theme_interface()->success_page_link(),
 			) );
 
