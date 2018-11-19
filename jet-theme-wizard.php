@@ -192,7 +192,7 @@ if ( ! class_exists( 'Jet_Theme_Wizard' ) ) {
 		 * @since 1.0.0
 		 */
 		public function lang() {
-			load_plugin_textdomain( 'jet-theme-wizard', false, $this->path( 'languages' ) );
+			load_plugin_textdomain( 'jet-theme-wizard', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 		}
 
 		/**
