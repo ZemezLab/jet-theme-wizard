@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jet Theme Wizard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-23 12:33+0200\n"
+"PO-Revision-Date: 2018-11-23 12:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:4c,1,2;_n_noop:1,2;"
+"_nx_noop:4c,1,2\n"
+"esc_attr__;_x: 1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-ajax-handlers.php:79
+msgid "Installation data lost, please return to previous step and try again."
+msgstr ""
+"Данные для установки были утеряны. Пожалуйста, повторите предыдущий шаг."
+
+#: includes/class-ajax-handlers.php:88
+msgid "Request failed. Please, try again later."
+msgstr "Запрос не выполнен. Пожалуйста, повторите попытку позже."
+
+#: includes/class-ajax-handlers.php:99
+msgid "Child theme generated. Installing..."
+msgstr "Создана дочерняя тема. Устанавливается ..."
+
+#: includes/class-ajax-handlers.php:120
+msgid "Child theme installation skipped. Continue with parent theme..."
+msgstr "Установка дочерней темы пропущена. Продолжить с родительской темой ..."
+
+#: includes/class-ajax-handlers.php:217
+msgid "Theme URL was lost. Please refresh page and try again."
+msgstr ""
+"URL темы был потерян. Пожалуйста, обновите страницу и повторите попытку."
+
+#: includes/class-ajax-handlers.php:295
+msgid "Can't find theme to activate"
+msgstr "Не найдена тема для активации."
+
+#: includes/class-ajax-handlers.php:303
+msgid "The theme is already active. Redirecting..."
+msgstr "Тема уже активна. Перенаправление..."
+
+#: includes/class-ajax-handlers.php:305
+msgid "The theme is sucessfully activated. Redirecting..."
+msgstr "Тема успешно активирована. Перенаправление..."
+
+#: includes/class-ajax-handlers.php:336
+msgid "Please fill in License field and try again"
+msgstr "Пожалуйста, заполните поле для лицензионного ключа и попробуйте снова."
+
+#: includes/class-ajax-handlers.php:354
+msgid "Your license activated. Downloading and installing theme..."
+msgstr "Ваша лицензия успешно активирована. Загрузка и установка темы..."
+
+#: includes/class-ajax-handlers.php:372
+msgid "You are not allowed to access this"
+msgstr "Вам не предоставлен доступ"
+
+#: includes/class-ajax-handlers.php:380
+msgid "Nonce verfictaion failed"
+msgstr "Данная проверка не удалась"
+
+#: includes/class-compat.php:54
+msgid "Jet Plugins Wizard"
+msgstr ""
+
+#: includes/class-compat.php:92
+msgid "Installing plugins wizard..."
+msgstr "Устанавливается Мастер установки плагинов..."
+
+#: includes/class-compat.php:113
+msgid "Plugins wizard data not found."
+msgstr "Данные Мастера установки плагинов не найдены."
+
+#: includes/class-compat.php:145
+msgid "All done, redirecting..."
+msgstr "Готово, перенаправление ..."
+
+#: includes/class-install-api.php:74
+msgid "The theme is succesfully installed. Activating..."
+msgstr "Тема успешно установлена. Активация..."
+
+#: includes/class-install-api.php:87
+msgid "The theme has been already installed. Activating..."
+msgstr "Тема была успешно установлена. Активация..."
+
+#: includes/class-install-api.php:98 includes/class-install-api.php:164
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+"Не удается подключиться к файловой системе. Пожалуйста, подтвердите данные."
+
+#: includes/class-install-api.php:142
+msgid "Plugins wizard installed and activated. Redirecting..."
+msgstr "Мастер установки плагинов установлен и активирован. Перенаправление..."
+
+#: includes/class-install-api.php:272 includes/class-install-api.php:354
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Пакет плагинов не содержит папку с нужным slug, и переименование не "
+"сработало."
+
+#: includes/class-install-api.php:272 includes/class-install-api.php:280
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Обратитесь к поставщику плагинов и попросите упаковать плагин в соответствии "
+"с рекомендациями WordPress."
+
+#: includes/class-install-api.php:280
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Пакет плагинов состоит из нескольких файлов, но файлы не упакованы в папку."
+
+#: includes/class-interface.php:37 includes/class-interface.php:38
+msgid "Jet Theme Wizard"
+msgstr ""
+
+#: includes/class-license.php:116
+msgid "Sorry, you not allowed to activate license"
+msgstr "У Вас нет прав активировать лицензионный ключ."
+
+#: includes/class-license.php:120
+msgid "Please provide valid license key"
+msgstr "Пожалуйста, предоставьте радочий лицензионный ключ."
+
+#: includes/class-license.php:129
+msgid "Internal error, please try again later."
+msgstr "Внутренняя ошибка. Пожалуйста, попробуйте позже."
+
+#: includes/class-license.php:185
+msgid "Your license is missing. Please check your key again."
+msgstr ""
+"Ваш лицензионный ключ введен неправильно. Пожалуйста, его корректность еще "
+"раз."
+
+#: includes/class-license.php:186
+msgid ""
+"<strong>You have no more activations left.</strong> Please upgrade to a more "
+"advanced license (you'll only need to cover the difference)."
+msgstr ""
+"<strong>Действие лицензии окончено.</strong> Пожалуйста, приобретите "
+"расширенную лицензию (для приобретния Вы можете оплатить только разницу в "
+"стоимости)."
+
+#: includes/class-license.php:187
+msgid ""
+"<strong>Your License Has Expired.</strong> Renew your license today to keep "
+"getting feature updates, premium support and unlimited access to the "
+"template library."
+msgstr ""
+"<strong>Срок действия лицензионного ключа истек.</strong> Обновите лицензию "
+"сегодня чтобы в дальнейшем получать обновления, премиальную клиентскую "
+"поддержку и иметь неограниченный доступ к библиотеке шаблонов. "
+
+#: includes/class-license.php:188 includes/class-license.php:189
+msgid ""
+"<strong>Your license key has been cancelled</strong> (most likely due to a "
+"refund request). Please consider acquiring a new license."
+msgstr ""
+"<strong>Действие Вашего лицензионного ключа было прекращено</strong> "
+"(наиболее вероятно, Вы подали запрос на возмещение стоимости). Пожалуйста, "
+"рассмотрите приобретение нового лицензионного ключа. "
+
+#: includes/class-license.php:190 includes/class-license.php:192
+msgid ""
+"<strong>Your license key doesn't match your current domain</strong>. This is "
+"most likely due to a change in the domain URL of your site (including HTTPS/"
+"SSL migration). Please deactivate the license and then reactivate it again."
+msgstr ""
+"<strong>Ваш лицензионный ключ не совпадает с доменом, выбранным для "
+"использования</strong>. Возможно, Вы сменили доменное имя сайта (HTTPS/SSL  "
+"миграция также может привести к данной ошибке). Пожалуйста, деактивируйте "
+"лицензионный ключ для предыдущего домена и активируйте его для домена, "
+"который актуален. "
+
+#: includes/class-license.php:191
+msgid ""
+"<strong>Your license key doesn't match your current domain</strong>. This is "
+"most likely due to a change in the domain URL. Please deactivate the license "
+"and then reactivate it again."
+msgstr ""
+"<strong>Ваш лицензионный ключ не совпадает с доменом, выбранным для "
+"использования</strong>. Возможно, Вы сменили доменное имя сайта. Пожалуйста, "
+"деактивируйте лицензионный ключ для предыдущего домена и активируйте его для "
+"домена, который актуален. "
+
+#: includes/class-license.php:195
+msgid ""
+"An error occurred. Please check your internet connection and try again. If "
+"the problem persists, contact our support."
+msgstr ""
+"Поизошла ошибка. Пожалуйста, проверьте соединение с сетью Интернет. Если "
+"проблема не исчезнет, обратитесь в нашу службу поддержки клиентов."
+
+#: jet-theme-wizard.php:300
+msgid "* Please, fill this field"
+msgstr "Пожалуйста, заполните это поле"
+
+#: templates/step-child-theme.php:8
+msgid ""
+"We can't find any inforamtion about installed theme. Plaese, return to "
+"previous"
+msgstr ""
+"Мы не можем обнаружить информацию об установленной теме. Пожалуйста, "
+"вернитесь к предыдущему действию"
+
+#: templates/step-child-theme.php:13
+msgid "Use child theme?"
+msgstr "Использовать дочернюю тему?"
+
+#: templates/step-child-theme.php:15
+#, php-format
+msgid ""
+"We recommend you to use our child themes generator to get child theme for %s"
+msgstr ""
+"Мы рекомендуем Вам использовать генератор дочерних тем для получения "
+"дочерней темы для %s"
+
+#: templates/step-child-theme.php:20
+msgid "Continue with parent theme"
+msgstr "Продолжить используя родительскую тему"
+
+#: templates/step-child-theme.php:21
+msgid "Skip child theme installation and continute with parent theme."
+msgstr ""
+"Пропустить установку дочерней темы и продолжить используя родительскую тему."
+
+#: templates/step-child-theme.php:27
+msgid "Use child theme"
+msgstr "Использовать дочернюю тему"
+
+#: templates/step-child-theme.php:28
+msgid ""
+"Download and install child theme. Note: we recommend doing this, because it "
+"is the most safe way to make future modifictaions."
+msgstr ""
+"Загрузка и установка дочерней темы. Важно: мы рекомендуем использовать "
+"дочернюю тему, поскольку она позволит безопасно вносить изменения."
+
+#: templates/step-child-theme.php:36
+msgid "Continue"
+msgstr "Продолжить"
+
+#: templates/step-success.php:1
+msgid "The theme is successfully installed"
+msgstr "Тема успешно установлена"
+
+#: templates/step-success.php:3
+msgid "Congratulations, your theme is successfully installed!"
+msgstr "Поздравляем, тема успешно установлена!"
+
+#: templates/step-verification.php:6
+msgid "Install Theme"
+msgstr "Установить тему"
+
+#: templates/step-verification.php:8
+msgid "Please, enter your license key to start installation:"
+msgstr "Пожалуйста, введите лицензионный ключ чтобы начать установку:"
+
+#: templates/step-verification.php:13
+msgid "License Key:"
+msgstr "Лицензионный ключ:"
+
+#: templates/step-verification.php:15
+msgid "Enter your license key here..."
+msgstr "Введите лицензионный ключ..."
+
+#: templates/step-verification.php:19
+msgid "Start Install"
+msgstr "Начать установку"
+
+#~ msgid ""
+#~ "Installation data lost, plaese return to previous step and try again."
+#~ msgstr ""
+#~ "Данные установки утеряны, пожалуйста, вернитесь к предыдущему шагу и "
+#~ "повторите попытку."
+
+#~ msgid "Can't found theme to activate"
+#~ msgstr "Не удалось найти тему для активации"
+
+#~ msgid "Theme already active. Redirecting..."
+#~ msgstr "Тема уже активна. Перенаправляется..."
+
+#~ msgid "Theme sucessfully activated. Redirecting..."
+#~ msgstr "Тема успешно активирована. Перенаправляется..."
+
+#~ msgid "Please fill Template ID and Order ID fields and try again"
+#~ msgstr "Заполните поля ID шаблона и ID заказа и повторите попытку"
+
+#~ msgid ""
+#~ "Your template ID and order ID verified. Downloading and installing "
+#~ "theme..."
+#~ msgstr ""
+#~ "ID вашего шаблона и ID заказа подтверждены. Загружается и устанавливается "
+#~ "тема..."
+
+#~ msgid "TM Wizard"
+#~ msgstr "TM Wizard"
+
+#~ msgid "Theme succesfully installed. Activating..."
+#~ msgstr "Тема успешно установлена. Активируется ..."
+
+#~ msgid "Theme already installed. Activating..."
+#~ msgstr "Тема уже установлена. Активируется ..."
+
+#~ msgid "TM Theme Wizard"
+#~ msgstr "TM Theme Wizard"
+
+#~ msgid "Internal error, please try again later"
+#~ msgstr "Внутренняя ошибка, пожалуйста, попробуйте снова позже"
+
+#~ msgid "Invalid Order ID"
+#~ msgstr "Недопустимый ID заказа"
+
+#~ msgid "Template not found"
+#~ msgstr "Шаблон не найден"
+
+#~ msgid ""
+#~ "We can't found inforamtion about installed theme. Plaese, return to "
+#~ "previous step and enter your verification data again."
+#~ msgstr ""
+#~ "Мы не можем найти информацию об установленной теме. Пожалуйста, вернитесь "
+#~ "к предыдущему шагу и введите ваши данные для проверки повторно."
+
+#~ msgid ""
+#~ "Download and install child theme. Note: we recommend this way, because is "
+#~ "the most safe way to make future modifictaions."
+#~ msgstr ""
+#~ "Скачайте и установите дочернюю тему. Внимание: мы рекомендуем установить "
+#~ "дочернюю тему, потому что это самый безопасный способ для внесения "
+#~ "будущих изменений."
+
+#~ msgid "Theme successfully installed"
+#~ msgstr "Тема успешно установлена"
+
+#~ msgid "Congratulations, your theme successfully installed!"
+#~ msgstr "Поздравляем, ваша тема успешно установлена!"
+
+#~ msgid "Please, enter your Template ID and order ID to start installation:"
+#~ msgstr ""
+#~ "Пожалуйста, введите ID шаблона и ID вашего заказа, чтобы начать установку:"
+
+#~ msgid "Template ID:"
+#~ msgstr "ID шаблона:"
+
+#~ msgid "Enter your template ID here..."
+#~ msgstr "Введите ID вашего шаблона здесь..."
+
+#~ msgid "Order ID:"
+#~ msgstr "ID заказа:"
+
+#~ msgid "Enter your order ID here..."
+#~ msgstr "Введите ID вашего заказа здесь..."
