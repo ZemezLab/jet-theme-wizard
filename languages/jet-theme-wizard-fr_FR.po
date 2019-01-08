@@ -1,13 +1,12 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Jet Theme Wizard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-08 12:16+0200\n"
-"PO-Revision-Date: 2017-04-12 09:56+0200\n"
+"POT-Creation-Date: 2019-01-08 12:17+0200\n"
+"PO-Revision-Date: 2019-01-08 12:17+0200\n"
 "Last-Translator: \n"
 "Language-Team: Cherry Team <support@cherryframework.com>\n"
-"Language: su\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +17,7 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.1.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: cherry-framework\n"
 "X-Poedit-SearchPathExcluded-1: node_modules\n"
@@ -26,126 +25,137 @@ msgstr ""
 #: includes/class-ajax-handlers.php:79
 msgid "Installation data lost, please return to previous step and try again."
 msgstr ""
+"Données d’installation perdues, merci de revenir en arrière et de réessayer."
 
 #: includes/class-ajax-handlers.php:88
 msgid "Request failed. Please, try again later."
-msgstr ""
+msgstr "La demande a échoué. Merci de réessayer plus tard."
 
 #: includes/class-ajax-handlers.php:99
 msgid "Child theme generated. Installing..."
-msgstr ""
+msgstr "Thème enfant généré. Installation…"
 
 #: includes/class-ajax-handlers.php:120
 msgid "Child theme installation skipped. Continue with parent theme..."
-msgstr ""
+msgstr "Installation du thème enfant ignorée. Continuer avec le thème parent…"
 
 #: includes/class-ajax-handlers.php:217
 msgid "Theme URL was lost. Please refresh page and try again."
-msgstr ""
+msgstr "URL du thème perdue. Merci d’actualiser la page ou de réessayer."
 
 #: includes/class-ajax-handlers.php:295
 msgid "Can't find theme to activate"
-msgstr ""
+msgstr "Thème à activer non trouvé"
 
 #: includes/class-ajax-handlers.php:303
 msgid "The theme is already active. Redirecting..."
-msgstr ""
+msgstr "Le thème est déjà activé. Redirection en cours…"
 
 #: includes/class-ajax-handlers.php:305
 msgid "The theme is sucessfully activated. Redirecting..."
-msgstr ""
+msgstr "Le thème a bien été activé. Redirection en cours…"
 
 #: includes/class-ajax-handlers.php:336
 msgid "Please fill in License field and try again"
-msgstr ""
+msgstr "Merci de remplir le champ licence et de réessayer"
 
 #: includes/class-ajax-handlers.php:354
 msgid "Your license activated. Downloading and installing theme..."
-msgstr ""
+msgstr "Licence activée. Téléchargement et installation du thème…"
 
 #: includes/class-ajax-handlers.php:372
 msgid "You are not allowed to access this"
-msgstr ""
+msgstr "Vous n’êtes pas autorisé à accéder à ceci"
 
 #: includes/class-ajax-handlers.php:380
 msgid "Nonce verfictaion failed"
-msgstr ""
+msgstr "Vérification échouée"
 
 #: includes/class-compat.php:54
 msgid "Jet Plugins Wizard"
-msgstr ""
+msgstr "Jet Plugins Wizard"
 
 #: includes/class-compat.php:92
 msgid "Installing plugins wizard..."
-msgstr ""
+msgstr "Installation des gestionnaire d’extensions…"
 
 #: includes/class-compat.php:113
 msgid "Plugins wizard data not found."
-msgstr ""
+msgstr "Données du gestionnaire d’installation non trouvées."
 
 #: includes/class-compat.php:145
 msgid "All done, redirecting..."
-msgstr ""
+msgstr "Terminé, redirection en cours…"
 
 #: includes/class-install-api.php:74
 msgid "The theme is succesfully installed. Activating..."
-msgstr ""
+msgstr "Le thème a bien été installé. Activation en cours…"
 
 #: includes/class-install-api.php:87
 msgid "The theme has been already installed. Activating..."
-msgstr ""
+msgstr "Le thème a déjà été installé. Activation en cours…"
 
 #: includes/class-install-api.php:98 includes/class-install-api.php:164
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr ""
+"Connexion au système de fichiers impossible. Merci de confirmer vos "
+"identifiants."
 
 #: includes/class-install-api.php:142
 msgid "Plugins wizard installed and activated. Redirecting..."
-msgstr ""
+msgstr "Gestionnaire d’extensions installé et activé. Redirection en cours…"
 
 #: includes/class-install-api.php:272 includes/class-install-api.php:354
 msgid ""
 "The remote plugin package does not contain a folder with the desired slug "
 "and renaming did not work."
 msgstr ""
+"Le paquet distant de l’extension ne contient aucun dossier avec le terme "
+"désiré et le renommer n’a pas fonctionné."
 
 #: includes/class-install-api.php:272 includes/class-install-api.php:280
 msgid ""
 "Please contact the plugin provider and ask them to package their plugin "
 "according to the WordPress guidelines."
 msgstr ""
+"Merci de contacter le fournisseur de l’extension afin qu’il compile son "
+"extension selon les principes de Wordpress."
 
 #: includes/class-install-api.php:280
 msgid ""
 "The remote plugin package consists of more than one file, but the files are "
 "not packaged in a folder."
 msgstr ""
+"Le paquet distant de l’extension est composé de plus d’un fichier, mais les "
+"fichiers ne sont pas compilés en dossier."
 
 #: includes/class-interface.php:37 includes/class-interface.php:38
 msgid "Jet Theme Wizard"
-msgstr ""
+msgstr "Jet Theme Wizard"
 
 #: includes/class-license.php:116
 msgid "Sorry, you are not allowed to activate license"
-msgstr ""
+msgstr "Désolé, vous n’êtes pas autorisé à activer la licence"
 
 #: includes/class-license.php:120
 msgid "Please provide valid license key"
-msgstr ""
+msgstr "Merci de fournir une licence valide"
 
 #: includes/class-license.php:129
 msgid "Internal error, please try again later."
-msgstr ""
+msgstr "Erreur interne, merci de réessayer plus tard."
 
 #: includes/class-license.php:185
 msgid "Your license is missing. Please check your key again."
-msgstr ""
+msgstr "Votre licence est manquante. Merci de la vérifier à nouveau."
 
 #: includes/class-license.php:186
 msgid ""
 "<strong>You have no more activations left.</strong> Please upgrade to a more "
 "advanced license (you'll only need to cover the difference)."
 msgstr ""
+"<strong>Il ne vous reste plus d’activations.</strong> Merci de mettre votre "
+"licence à niveau (vous ne paierez que la différence)."
 
 #: includes/class-license.php:187
 msgid ""
@@ -153,12 +163,17 @@ msgid ""
 "getting feature updates, premium support and unlimited access to the "
 "template library."
 msgstr ""
+"<strong>Votre licence n’est plus valide.</strong> Renouvellez votre licence "
+"dès aujourd’hui pour continuer à bénéficier des nouvelles mises à jour, du "
+"support Premium et de l’accès illimité à la bibliothèque de modèles."
 
 #: includes/class-license.php:188 includes/class-license.php:189
 msgid ""
 "<strong>Your license key has been cancelled</strong> (most likely due to a "
 "refund request). Please consider acquiring a new license."
 msgstr ""
+"<strong>Votre licence a été annulée</strong> (probablement suite à une "
+"demande de remboursement). Pensez à en acquérir une nouvelle."
 
 #: includes/class-license.php:190 includes/class-license.php:192
 msgid ""
@@ -166,6 +181,9 @@ msgid ""
 "most likely due to a change in the domain URL of your site (including HTTPS/"
 "SSL migration). Please deactivate the license and then reactivate it again."
 msgstr ""
+"<strong>Votre licence ne correspond pas à ce nom de domaine</strong>. C’est "
+"probablement dû à un changement d’URL de votre site (dont la migration HTTPS/"
+"SSL). Merci de désactiver la licence et de la réactiver."
 
 #: includes/class-license.php:191
 msgid ""
@@ -173,79 +191,91 @@ msgid ""
 "most likely due to a change in the domain URL. Please deactivate the license "
 "and then reactivate it again."
 msgstr ""
+"<strong>Votre licence ne correspond pas à ce nom de domaine</strong>. C’est "
+"probablement dû à un changement d’URL. Merci de désactiver la licence et de "
+"la réactiver."
 
 #: includes/class-license.php:195
 msgid ""
 "An error occurred. Please check your internet connection and try again. If "
 "the problem persists, contact our support."
 msgstr ""
+"Il y au une erreur. Merci de vérifier votre connexion internet et de "
+"réessayer. Si le problème persiste, contactez le support."
 
 #: jet-theme-wizard.php:300
 msgid "* Please, fill this field"
-msgstr ""
+msgstr "* Merci de remplir ce champ"
 
 #: templates/step-child-theme.php:8
 msgid ""
 "We can't find any information about installed theme. Please, return to "
 "previous"
 msgstr ""
+"Aucune information trouvée à propos du thème installé. Merci de revenir en "
+"arrière"
 
 #: templates/step-child-theme.php:13
 msgid "Use child theme?"
-msgstr ""
+msgstr "Utiliser le thème enfant ?"
 
 #: templates/step-child-theme.php:15
 #, php-format
 msgid ""
 "We recommend you to use our child themes generator to get child theme for %s"
 msgstr ""
+"Nous recommandons l’utilisation de notre générateur de thèmes enfants pour "
+"obtenir le thème enfant pour %s"
 
 #: templates/step-child-theme.php:20
 msgid "Continue with parent theme"
-msgstr ""
+msgstr "Continuer avec le thème parent"
 
 #: templates/step-child-theme.php:21
 msgid "Skip child theme installation and continue with parent theme."
 msgstr ""
+"Ignorer l’installation du thème enfant et continuer avec le thème parent."
 
 #: templates/step-child-theme.php:27
 msgid "Use child theme"
-msgstr ""
+msgstr "Utiliser le thème enfant"
 
 #: templates/step-child-theme.php:28
 msgid ""
 "Download and install child theme. Note: we recommend doing this, because it "
 "is the most safe way to make future modifications."
 msgstr ""
+"Télécharger et installer le thème enfant. Note : nous le recommandons : "
+"parce que c’est plus sûr pour les prochaine mises à jour."
 
 #: templates/step-child-theme.php:36
 msgid "Continue"
-msgstr ""
+msgstr "Continuer"
 
 #: templates/step-success.php:1
 msgid "The theme is successfully installed"
-msgstr ""
+msgstr "Le thème a été correctement installé"
 
 #: templates/step-success.php:3
 msgid "Congratulations, your theme is successfully installed!"
-msgstr ""
+msgstr "Félicitations, votre thème a été correctement installé!"
 
 #: templates/step-verification.php:6
 msgid "Install Theme"
-msgstr ""
+msgstr "Installer le thème"
 
 #: templates/step-verification.php:8
 msgid "Please, enter your license key to start installation:"
-msgstr ""
+msgstr "Merci d’entrer votre licence pour commencer l’installation:"
 
 #: templates/step-verification.php:13
 msgid "License Key:"
-msgstr ""
+msgstr "Licence:"
 
 #: templates/step-verification.php:15
 msgid "Enter your license key here..."
-msgstr ""
+msgstr "Entrer votre licence ici…"
 
 #: templates/step-verification.php:19
 msgid "Start Install"
-msgstr ""
+msgstr "Commencer l’installation"

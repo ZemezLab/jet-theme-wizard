@@ -113,7 +113,7 @@ if ( ! class_exists( 'Jet_Theme_Wizard_License' ) ) {
 		public function activate_license( $license = null ) {
 
 			if ( ! current_user_can( 'manage_options' ) ) {
-				return $this->set_error( __( 'Sorry, you not allowed to activate license', 'jet-theme-wizard' ) );
+				return $this->set_error( __( 'Sorry, you are not allowed to activate license', 'jet-theme-wizard' ) );
 			}
 
 			if ( ! $license ) {
