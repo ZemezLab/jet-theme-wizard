@@ -1,14 +1,14 @@
 <?php
-/*
-Plugin Name: JetThemeWizard
-Plugin URI:
-Description: Crocoblock theme installation wizard.
-Author: Zemez
-Author URI:
-Version: 1.0.1
-Text Domain: jet-theme-wizard
-Domain Path: languages/
-License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+/**
+ * Plugin Name: JetThemeWizard
+ * Plugin URI:
+ * Description: Crocoblock theme installation wizard.
+ * Author: Zemez
+ * Author URI:
+ * Version: 1.0.1
+ * Text Domain: jet-theme-wizard
+ * Domain Path: languages/
+ * License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
 
 // If this file is called directly, abort.
