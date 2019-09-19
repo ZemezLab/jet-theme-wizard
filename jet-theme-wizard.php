@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: JetThemeWizard
- * Plugin URI:
+ * Plugin URI: https://crocoblock.com
  * Description: Crocoblock theme installation wizard.
  * Author: Zemez
  * Author URI:
